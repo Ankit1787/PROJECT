@@ -1,0 +1,223 @@
+.confirm-order-heading{
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirm-order-heading >div >span{
+    font-size: 1.5rem;
+    color:#ffff
+}
+.confirm-order-heading-h3{
+    font-size: 1.5rem;
+    color:#ffff
+}
+.confirm-order-heading{
+    width: 100%;
+    padding: 1vmax 2vmax;
+    background-color: rgb(25 118 210);
+}
+.checkout-main{
+    display: flex;
+}
+.confirm-order{
+     padding: 3vmax 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.confirm-order-body{
+    display: flex;
+   column-gap: 40px;
+
+}
+.confirm-order-main{
+  background-color: #ffff
+  ;
+  width: 65%;
+  min-width: 500px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.Confirm-detail{
+    display: grid;
+    padding: 3vmax 2vmax;
+   line-height: 28px;
+   letter-spacing: 2px;
+}
+.Confirm-detail >h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 1.2vmax;
+}
+.Confirm-detail >div >p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464747;
+    
+}
+.confirm-order-address >div{
+    background-color: #f1f2f3;
+    padding: 1vmax 1.2vmax;
+}
+tbody >tr >td {
+    padding: 10px;
+   
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.confirm-order-charges{
+    margin-left: auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+  text-align: end;
+}
+.confirm-order-charges  >tr >td >span{
+    font-size: 1.3rem;
+   padding-left: 30px;
+    color: #6e7070;
+}
+.confirm-order-charges  >tr >td{
+  
+}
+.confirm-order-shipping{
+    height: max-content;
+}
+
+.responsive-div{
+    display: grid;
+    row-gap: 20px;
+}
+.responsive-div >div{
+display: flex;
+
+padding: 1vmax 1.2vmax;
+background-color: #f1f2f3;
+}
+.confirm-order-img{
+  
+ 
+   
+}
+.confirm-order-img >img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #f1f2f3;
+}
+.confirm-order-det >div >p:first-child{
+   
+   
+    text-overflow: ellipsis;
+  
+    overflow: hidden;
+}
+
+.confirm-order-det{
+    padding: 0 1.2vmax 1vmax 1.2vmax;
+}
+.confirm-order-det >div >p:nth-child(2),.confirm-order-det >div >p:nth-child(3){
+  padding: 15px 0;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 800;
+ 
+  
+}
+.confirm-order-det >div >p:nth-child(3){
+  line-height: 25px;
+}
+.confirm-order-det >div >p{
+font-size: 0.8rem;
+line-height: 15px;
+overflow: hidden;
+}
+.confirm-order-det >h3{
+font-size: 1.3rem;
+}
+.confirm-order-button{
+    margin: 1vmax 0!important;
+}
+.confirm-order-body {
+    padding: 3vmax 1.2vmax;
+    width: 90%;
+    min-width: 600px;
+    
+
+}
+.Checkout-empty{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+    text-align: center;
+
+}
+.Checkout-empty >div >h2{
+    font-size: 1.5rem;
+}
+
+@media (max-width:1200px) {
+    .confirm-order-main{
+       
+        width: 80%;
+        min-width: 100%;
+        
+      
+      }
+      .confirm-order-body {
+        padding: 3vmax 1.2vmax;
+        width: 80%;
+        min-width: 600px;
+        
+    
+    }
+
+    .checkout-main{
+        display: flex;
+
+    }
+    /* .confirm-order{
+         padding: 3vmax 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+    } */
+    .confirm-order-body{
+        display: grid;
+
+      row-gap: 50px;
+    
+    }
+}
+
+@media (max-width:600px) {
+    /* Default table styles */
+
+    .confirm-order-heading >div >h3{
+      white-space: nowrap;
+     
+      
+    
+    }
+    .confirm-order-img >img{
+        width: 100px;
+        height: 150px;
+        border: 2px solid #f1f2f3;
+    }
+    .confirm-order-heading{
+    flex-direction: column;
+      
+    
+    }
+  
+  
+    .confirm-order-body {
+        padding: 3vmax 1.2vmax;
+       width: 100%;
+       min-width: 100%
+    
+    }
+
+}

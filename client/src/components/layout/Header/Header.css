@@ -1,0 +1,400 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html,body { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden; background-color: #FFFFFF; }
+
+  
+  .logo{
+    font-size: 4rem;
+  }
+  .nav-logo{
+    display: none;
+    
+  }
+  
+    
+  
+  .nav-third{
+  width: 100%;
+    
+  }
+  .nav-third-div{
+    position: absolute;
+    right: 20px;
+    display: none;
+    flex-wrap: nowrap;
+    
+  }
+  .nav-third-div >form{
+   position: relative;
+    flex-wrap: nowrap;
+    
+  }
+  .nav-third-div >form>button{
+   position: absolute;
+   right:10px
+    
+  }
+  /* Custom styles for the clear (cross) button in a search input */
+input[type="search"]::-webkit-search-cancel-button{
+  display: none;  
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+
+
+.searchinput-top{
+  padding-right: 25px !important;
+}
+.close-btn{
+  font-size: 1.2rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.close-btn:hover{
+  
+		color: #9198a1;
+
+  
+}
+.searchinput{
+ 
+  padding-right: 20px !important;
+  
+}
+.searchcontainer{
+  
+
+
+}
+
+.search-icon:hover{
+  color: #fff;
+ 
+  font-weight: 800;
+  
+  background-color: #9198a1;
+
+}
+
+
+ .nav-search-logo{
+  display: inline;
+ }
+ .toggle-button{
+  font-size: 0.8rem !important;
+}
+
+  
+ 
+  
+ 
+
+  /* footer styling */
+  
+  
+  
+  a{
+    text-decoration: none;
+  }
+  ul,li,p,span,div{
+    list-style: none;
+   margin: 0%;
+   padding: 0%;
+  }
+ 
+  .main{
+    min-height: 100vh;
+  padding: 40px 0;
+  }
+  
+  
+ 
+  .top{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    padding-bottom: 20px;
+  }
+  .top2{
+   
+      background-image: url(http://localhost:3000/static/media/4.8f9b4cbf7e3b69affb37.jpg);
+      padding-bottom: 20px;
+  }
+  .footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    border: none;
+    
+   
+  }
+  .top{
+    background-image: url("../../../styles/4.jpg");
+    background-size: cover; /* Adjust as needed */
+   /* Adjust as needed */
+    background-repeat: no-repeat;
+   background-position: center;
+ 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+object-fit: cover;
+
+  }
+  .banner{
+    padding: 50px 50px;
+min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+   
+
+}
+.banner >p{
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+.banner >h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.brand-first{
+  display: flex;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.nav-main{
+  position: relative;
+}
+.nav-main-div{
+  margin-left: auto;
+  display: flex;
+ 
+}
+.brand{
+ 
+}
+.nav-third-top{
+  display: block;
+  text-align: start;
+  margin: 0 20px;
+  
+ 
+ }
+ .nav-brand{
+  display: none;
+ }
+ .top-search-bar{
+ position: relative;
+ display: flex;
+ flex-wrap: nowrap;
+ }
+ .submit-button{
+  right: 10px;
+ }
+ /* 
+  
+ */
+ .nav-dropdown{
+ position: relative;
+
+ }
+ .nav-dropdown >div{
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  background-color: #FFFFFF;
+  width: 200px;
+  text-align: start;
+ padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
+  z-index: 200;
+ }
+ .dropdownlink >li{
+  color: #2a2a2b;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  transition: all 0.3s;
+ }
+ .menu{
+  padding: 20px 15px;
+ }
+ .dropdownlink  >li:hover{
+  background-color: #f1f2f4;
+
+ }
+ .checkout-nav{
+   width: 100%;
+  
+ 
+ 
+   background-image: url(http://localhost:3000/static/media/4.8f9b4cbf7e3b69affb37.jpg);
+  
+ 
+
+ }
+ .checkout-nav >div{
+  padding:15px 20px;
+ }
+ .checkout-nav-logo{
+  font-size: 4rem;
+ }
+ .nav-link >span{
+  color: #2d2e2e;
+ }
+ .nav-link >span:hover{
+  color: #2d2e2e;
+ }
+ @media (min-width:400px) {
+  .react-icons{
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+ 
+  .toggle-button{
+    font-size: 1.5rem !important;
+  }
+  .search-icon-top{
+  position: absolute;
+  right:20px;
+}
+.searchinput-top{
+  padding-right: 80px !important;
+}
+.searchinput{
+ 
+  padding-right: 80px !important;
+  
+}
+}
+  @media (min-width:768px){
+  
+    .logo{
+      font-size: 10rem;
+    }
+    .nav-main-div{
+      position: absolute;
+      right: 20px;
+      margin: 0 0;
+    }
+    .nav-brand{
+      display: block;
+     }
+    .brand-first{
+      display: none;
+    }
+    .brand-logo{
+      font-size: 6rem;
+    }
+    .box-container{
+      width: 200px;
+      
+       
+     }
+     .nav-third-top{
+      display: flex;
+      text-align: center;
+      margin: 0 auto;
+      gap: 20px;
+     
+     }
+     .playstore{
+      max-height: 150px;
+      max-width: 200px;
+    }
+   
+  }
+ 
+    @media (min-width:1024px){
+      .searchcontainer{
+        display: flex;
+      }
+     
+      .nav-logo{
+        display: inline;
+      }
+       .nav-search-logo{
+        display: none;
+       }
+      
+     
+      .nav-third-div{
+      
+        display: flex;
+       
+        
+      }
+     
+  }
+ 
+  @media(max-width:768px) {
+    .banner >h1 {
+      font-size: 1.3rem;
+      font-weight: 500;
+  }
+    .banner >p {
+      font-size: 1.8rem;
+      font-weight: 500;
+  }
+  }
+ 
+    
+  /* Align navigation links to the left */
+  /* .navbar-nav.ml-auto {
+    margin-left: auto;
+    text-align: left;
+  }
+  .top-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-nav .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttom .search,.buttom .search-btn{
+    border-radius: 25px;
+    padding: 5px 15px;
+   
+  }
+  .buttom .search{
+    width: 500px;
+  }
+
+  nav {
+    width: 100%;
+    
+
+    padding: 50px 0;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #cf1c1c;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  */
+  
+  
+  

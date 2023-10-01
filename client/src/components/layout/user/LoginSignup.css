@@ -1,0 +1,409 @@
+.user-box .user-box-header{
+ display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vmax ;
+  position: relative;
+ 
+}
+.user-box >div >h3{
+    text-align: center;
+   font-family: inherit, sans-serif;
+    font-size: 1.2vmax;
+   width: fit-content;
+    text-transform: capitalize
+    ;
+    color: rgb(135, 133, 133);
+    cursor: pointer;
+    
+}
+.user-box >div >h3:hover{
+    color: tomato;
+}
+.user-heading.active::after {
+    content: "";
+position: absolute;
+bottom: -10px;
+left: 0;
+width: 50%;
+height: 4px;
+
+background-color: #1976d2;
+}
+.bactive::after {
+    content: "";
+position: absolute;
+bottom: -10px;
+right: 0;
+width: 50%;
+height: 4px;
+
+background-color: #1976d2;
+}
+.user-box >div >h3:first-child
+{
+    margin-left: 3vmax;
+}
+.user-box >div >h3:last-child
+{
+    margin-right: 3vmax;
+}
+.user-container{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    text-align: center;
+    place-items: center;
+   
+}
+.user-box{
+    background-color: #ffff;
+  
+   width: 400px;
+   padding: 1vmax 0;
+   
+   border-radius: 5px;
+height: 490px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.user-box >div{
+   
+}
+.user-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   padding: 2vmax;
+    gap: 1vmax;
+    transition: transform 0.5s ease-in-out;
+}
+.user-textfield{
+    width: 100%;
+
+}
+.us-box{
+}
+
+.user-form{
+   
+    display: flex;
+    flex-direction: column;
+    min-width: 400px
+}
+.user-form-container {
+    display: flex;
+    width: 100%;
+   overflow: hidden;
+   transition: transform 0.5s ease-in-out;
+ 
+  }
+  
+  .user-form {
+    flex: 1;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+
+  }
+  
+  .slide-left {
+    transform: translateX(-100%);
+  }
+  
+  .slide-right {
+    transform: translateX(-100%);
+  }
+  
+.username-lastname{
+    width: 100%;
+   display: grid;
+   column-gap: 1vmax; 
+   grid-template-columns: repeat(2,1fr);  
+
+}
+.forgot-password{
+
+}
+.input-file-container{
+   
+    width: 100%;
+}
+input[type="file"]{
+    width: 100%;
+   
+}
+input[type="file"]::file-selector-button{
+    cursor: pointer;
+   width: 100%;
+  border: 0.010rem solid rgb(198, 198, 198);
+  border-radius: 2px;
+   outline: none;
+   background: none;
+   padding: 0.8vmax;
+  
+    
+   
+   
+}
+
+.main-signup{
+   
+    background-color: #7a8d9f;
+}
+.file{
+    width: 100%;
+    position: relative;
+}
+
+.edit-button{
+    display: grid;
+    place-items: center;
+    row-gap: 15px;
+    margin-top: 1vmax;
+}
+
+.file >img{
+    height: 30px;
+    width: 35px;
+}
+.avatar-preview{
+    position:absolute;
+    left:20px;
+    top:10px;
+}
+
+/* myaccount */
+
+
+.myaccount-container{
+    display: grid;
+    place-items: center;
+
+}
+.myaccount-container >h2{
+  margin: 1vmax auto;
+}
+.myaccount-body{
+   
+    display: flex;
+    column-gap: 1.5vmax;
+    background-color: #ffff;
+    padding: 2vmax 1.5vmax;
+    margin: 2vmax 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.account-nav{
+   display: grid;
+   place-items: center;
+        width:20%;
+      min-width: 250px;
+      border: 2px solid  #f5f5f5;
+     
+}
+.account-nav >ul{
+    width: 100%;
+}
+
+.account-nav >ul >li >span{
+font-size: 1.3rem;
+padding: 0 1vmax;
+
+}
+.account-nav >ul  >li:hover{
+    background-color: #f1f2f4;
+   
+  
+   }
+   .account-nav >ul >li{
+    color: #2a2a2b;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: all;
+   }
+.myaccount-img >img{
+    border-radius: 100%;
+  width: 270px;
+  height: 280px;
+  
+   
+}
+.myaccount-img >button{
+width: fit-content;
+}
+
+.myaccount-body .myaccount-info{
+    background-color: #ffff;
+    
+  
+    padding: 20px 15px;
+}
+.myaccount-info{
+    width: 70%;
+   
+    min-width: 300px
+   }
+.myaccount-img{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+  width: 60%;
+  min-width: 300px;
+ 
+  
+ }
+ .myaccount-form{
+    width: 60%;
+  min-width: 300px;
+  
+  
+ }
+ 
+.myaccount-body >div >h3{
+ 
+    font-size: 2.5vmax;
+
+    
+
+}
+.myaccount-body >div >p{
+    font-size: 1.5vmax;
+}
+.myaccount-body  >h2{
+    font-size: 1.5vmax;
+    margin: 0.7vmax auto;
+    width: fit-content;
+}
+.username{
+    padding: 15px 10px;
+    width: 60%;
+    min-width: 240px;
+    outline: none;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc; 
+    color: #545353;
+    border-radius: 10px;
+}
+.app
+.input-name{
+    cursor: not-allowed;
+}
+.myaccount-form{
+    padding: 40px 0 20px;
+
+
+   
+    
+}
+.myaccount-form .myaccount-form-name{
+display: flex;
+gap: 20px;
+flex-wrap: nowrap;
+}
+.edit,.myaccount-img >button{
+    background: none;
+    border: none;
+    color: #04509d;
+    font-size: 1vmax;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 15px;
+}
+.edit:hover{
+   
+    color: #6892b9;
+}
+.myaccount-form >div >h2{
+  font-size: 1.3vmax;
+}
+.myaccount-form >div >div{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.myaccount-form >div:nth-child(2){
+    padding: 50px 0 20px 0;
+
+}
+.myaccount-form >div:nth-child(3){
+    padding: 30px 0 0 0;
+    
+}
+.email,.mobile{
+    width: 50%;
+    min-width: 220px;
+}
+.form{
+    display: flex;
+    column-gap: 40px;
+  border: 2px solid  #f5f5f5;
+  width: 100%;
+  padding :2vmax 1vmax;
+}
+.file-avatar-update{
+ 
+}
+@media (max-width:768px) { 
+    .myaccount-body{
+      
+        flex-direction: column;
+        
+   
+            
+            padding: 2vmax 1.5vmax;
+            
+    
+     
+    
+    }
+    .form{
+       
+      padding :2vmax 0;
+    }
+    .username{
+        padding: 15px 10px;
+        width: 60%;
+        min-width: 200px;
+        outline: none;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc; 
+        color: #545353;
+        border-radius: 10px;
+    }
+    .myaccount-info{
+        width: 70%;
+        min-width: 250px
+       }
+    .myaccount-img{
+     place-items: center;
+      width: 60%;
+      min-width: 220px;
+      
+     }
+     .myaccount-form {
+        width: 60%;
+        min-width: 250px;
+        padding: 1vmax 1.4vmax;
+    }
+    .account-nav {
+      
+        width: 100%;
+        min-width: 100%;
+       
+    }
+     .myaccount-img >img{
+       
+      width: 180px;
+      height:200px;
+      
+       
+    }
+    .form{
+        flex-direction: column;
+       row-gap: 40px;
+    }
+    .myaccount-body >h2{
+        font-size: 1.8vmax;
+        margin: 1.8vmax auto;
+      
+        
+    }
+}

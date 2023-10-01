@@ -1,0 +1,142 @@
+
+.pagination-box{
+    width: fit-content;
+   text-align: center;
+    margin: 30px auto;
+   
+}
+.page-item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    transition: all  0.3s;
+    cursor: pointer;
+    outline: none;
+}
+.page-item:last-child{
+    border-radius: 0 5px 5px 0 ;
+}
+.page-item:first-child{
+    border-radius: 5px 0 0 5px ;
+
+}
+.page-link{
+    padding: 1vmax 1.2vmax;
+   background: none !important;
+   color: rgb(81, 122, 200);
+    border: none !important;
+    outline: none !important;
+    
+}
+
+.page-item-active{
+    color: #ffff;
+    outline: none;
+    border: none;
+
+}
+.page-item:hover,.page-link:hover,.page-item-active{
+  background-color:rgb(170, 182, 204) ;
+  color: #ffff;
+  
+}
+/* Base styles for the range input */
+.prod-container{
+    /* display: flex;
+   
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+      
+  place-items: center;
+    row-gap: 1.5vmax;
+    column-gap: 1.4vmax;
+ 
+   padding: 2vmax 2vmax;
+    background-color: #ffff;
+    
+   
+}
+
+.feature>h1{
+text-transform: capitalize;
+}
+.products-box{
+    display: flex;
+  gap: 4vmax;
+    flex-direction: column;
+    padding: 2vmax;
+   
+}
+.side{
+background-color: #ffff;
+ padding: 20px;
+ 
+}
+.aside-box{
+    
+}
+.side >h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content{
+    background-color: #F8F8F8;
+}
+
+.no-product{
+    
+    height: 60vh;
+
+}
+.no-product >h1{
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+
+}
+.accordian{
+    border:0.0003rem solid #e0e0e0;
+    box-shadow: none!important;
+     margin: 0!important;
+     width: 100%;
+
+}
+.price-slider-box{
+
+max-width:300px;
+margin-right: auto;
+padding-left: 2.5vmax;
+}
+.list-div{
+    width: 100%;
+   
+}
+
+
+@media (min-width: 765px) {
+    .prod-container {
+        grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+        place-items: start;
+        justify-items: start;
+        row-gap: 1vmax;
+        column-gap: 20px;
+        padding: 2vmax 2vmax;
+        background-color: #ffff;
+    }
+    .products-box{
+       
+        flex-direction: row;
+        padding: 2vmax;
+       
+    }
+   
+    .card-main{
+        width: 20rem;
+    }
+    .card-img{
+        object-fit: fill;
+        overflow: hidden;
+    }
+
+}

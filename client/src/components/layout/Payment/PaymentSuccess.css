@@ -1,0 +1,28 @@
+.paymentsuccess{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+     text-align: center;
+}
+.paymentsuccess >div >p{
+   font-size: 1.2rem;
+   color: #404143;
+}
+.doneicon{
+  
+    background-color: greenyellow;
+   
+    border-radius: 100%;
+    animation: preloader .6s ease-in-out alternate .2s infinite;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px auto;
+
+}
+.cancelicon{
+  background-color: tomato;
+}
+  
+  @keyframes preloader {
+    100% { transform: scale(2); }
+  }

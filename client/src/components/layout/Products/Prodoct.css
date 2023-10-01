@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+
+}
+
+.items:hover{
+    transform: translateY( -0.5rem);
+   
+}
+
+
+.description{
+  height: 20px;
+  overflow: hidden;
+  white-space: nowrap; /* Prevent text from wrapping */
+  
+  text-overflow: ellipsis; 
+}
+.card-main{
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  position: relative;
+  
+  width: 16rem;
+  
+  box-shadow: none!important;
+  border:0.0003rem solid #e0e0e0;
+}
+.price-rating-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.price-rating-box >span{
+  margin: 0;
+}

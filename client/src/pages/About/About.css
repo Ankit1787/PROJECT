@@ -1,0 +1,97 @@
+.about{
+    display: grid;
+    place-items: center;
+}
+.about >h2{
+   font-size: 1.7rem;
+   margin: 30px auto 30px auto;
+}
+.about-image{
+    width: 80%;
+    height: 500px;
+    min-width: 600px
+}
+.about-main{
+    width: 80%;
+    min-width: 600px;
+    display: grid;
+   place-items: center;
+    row-gap: 40px;
+    column-gap: 50px;
+    background-color: #f2f3f4;
+    padding: 2.5vmax 1.3vmax;
+}
+.about-image >img{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+  border: 2px solid #ffff;
+}
+
+.about-body >div  >div>p {
+    font-size: 1.5rem;
+    color: #666;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding: 1.5vmax 1.2vmax;
+ 
+}
+
+/* AboutUs.css */
+.about-us-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .about-us-heading {
+    font-size: 2.5rem;
+    color: #333;
+    /* Add animations here (e.g., transitions) */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .about-us-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  #contact{
+    display: flex;
+    margin-top: 40px;
+   
+    padding: 1.5vmax 1.4vmax;
+  }
+  .get-intouch{
+    padding:1.5vmax 1.4vmax
+  }
+  .get-intouch >h3{
+  font-size: 1.4rem;
+  border-bottom: 2px solid black;
+  width: fit-content;
+  }
+  .get-intouch >h1{
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  }
+  /* Add more styles and animations as needed */
+  
+@media (max-width:768px) {
+    .about-image {
+        width: 80%;
+        min-width:300px
+      }
+      .about-body{
+          width: 80%;
+          min-width: 300px
+      }
+      .about-main{
+        width: 80%;
+        min-width: 300px;
+       
+        padding: 1.5vmax 1.3vmax;
+    }
+    .about-body >div  >div>p {
+        font-size: 1.3rem;
+       
+      }
+}

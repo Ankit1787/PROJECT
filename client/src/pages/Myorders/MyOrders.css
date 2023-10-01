@@ -1,0 +1,138 @@
+.myorders{
+    display: grid;
+    place-items: center;
+   
+}
+.myorders-h3{
+   margin: auto auto;
+}
+.myorders-main{
+    width: 70%;
+    min-width:600px;
+   display:grid;
+   row-gap: 40px;
+}
+.myorder-h3-div{
+    margin:auto auto;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.myordrs-img{
+  
+    text-align: center;
+      display: grid;
+      row-gap: 10px;
+}
+
+.myordrs-img >h2{
+    background-color: #fff;
+   font-size: 0.9rem;
+   padding: 10px 15px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.myorder-det >h2{
+ font-size: 1.2rem;
+}
+.myorders-table{
+    text-align: center;
+    width: 100%;
+  
+}
+.myorders-table >thead >tr >td{
+    padding: 1vmax 1.4vmax;
+}
+.myorder-body {
+    display: grid;
+    row-gap: 30px;
+}
+.myorder-body >div{
+   display: flex;
+   justify-content: space-between;
+   padding: 1.3vmax 1.5vmax;
+   background-color: #ffff;
+   border: 3px solid #f1f2f3;
+   border-radius: 5px;
+}
+.myorder-body-det{
+    white-space: nowrap;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    
+}
+.myorder-body-det >div{
+    text-transform: capitalize;
+}
+.myorder-body-det >div >h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.myorder-body-det >div >h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:rgb(25 118 210);
+
+}
+
+
+@media (max-width:1024px) {
+    .myorders-main{
+        width: 70%;
+        min-width:500px;
+
+       row-gap: 40px;
+    }
+    
+}
+@media (max-width:768px) {
+    .myorders-main{
+        width: 90%;
+        min-width:300px;
+        
+
+
+       row-gap: 40px;
+    }
+    .btn-myorder{
+        font-size: 0.7rem!important;
+    }
+    .myorder-body-det >div >h2{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .myorder-body-det >div >h3{
+        font-size: 0.8rem;
+        font-weight: 400;
+        color:rgb(25 118 210);
+    
+    }
+}
+@media (max-width:500px) {
+    .myorders-main{
+        width: 95%;
+        min-width:200px;
+        
+
+
+       row-gap: 40px;
+    }
+    .myorder-body-det >div >h2{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .myorder-body-det >div >h3{
+        font-size: 0.8rem;
+        font-weight: 400;
+        color:rgb(25 118 210);
+    
+    }
+    .myorder-body-det{
+      
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 10px;
+        
+    }
+}
